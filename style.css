@@ -57,6 +57,7 @@ nav{
 }
 
 .link{
+    margin-top: 3rem;
     a{
         transition: 0.3s;
         border-radius: 7px ;
