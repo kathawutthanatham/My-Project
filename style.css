@@ -57,7 +57,7 @@ nav{
 }
 
 .link{
-    margin-top: 3rem;
+    margin: 3rem;
     a{
         transition: 0.3s;
         border-radius: 7px ;
@@ -67,4 +67,30 @@ nav{
     a:hover{
         background-color: rgb(231, 248, 255);
     }
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.detail-member{
+
+}
+
+.detail-member{
+    width: 100%;
+    margin-top: 5rem;
+    border: 2px solid skyblue;
+    border-radius: 7px;
+    h1{
+        background-color: skyblue;
+        padding: 10px ;
+    }
+}
+.mini-detail{
+    background-color: skyblue;
+    width: 24%;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+
 }
